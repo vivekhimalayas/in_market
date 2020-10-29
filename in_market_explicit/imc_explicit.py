@@ -126,7 +126,7 @@ print("Prediction datafram created for dumping in BQ")
 import gc
 gc.collect()
 
-client = bigquery.Client(project="maximal-furnace-783")
+client = bigquery.Client()
 
 # TODO(developer): Set table_id to the ID of the table to create.
 # table_id = "your-project.yourdataset.your_table_name"
